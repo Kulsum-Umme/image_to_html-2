@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #323A45;
+    overflow: hidden;
+}
+.wrapper{
+    width: 80%;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.nav{
+    float: right;
+    width: 71%;
+    overflow: hidden;
+}
+.nav ul {  
+    float: right;
+}
+.nav ul li{
+     list-style: none;
+    float: left;
+    margin: 20px;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    
+}
+.nav ul li:last-child a{
+    padding-right:0;
+}
+
+.nav ul li a:hover{
+    color:#2A80B9;
+    transition:.5s;
+}
+.banner{
+    background-image: url(../img/resort.jpg);
+    border: 1px solid green;
+    min-height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    overflow: hidden;
+}
+.banner h1{
+font-size: 45px;
+padding-bottom: 20px;
+}
+.banner h2{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.banner button{
+   background-color: #2A80B9;
+   border: 1px solid white;
+   padding: 3px 4px;
+   color: white;
+}
+.banner_content{
+        padding-top: 120px;
+}
+.service-cobntent {
+    text-align: center;
+    background-color: #E9E6E1;
+    height: 150px;
+    font-size: 25px;
+     color: #C3C4C2;   
+    padding-bottom: 20px;
+}
+.service-cobntent p{
+    padding-top: 40px;
+}
+
+.main_service{
+     background-color: #F0F0F0;
+    width: 100%;
+    overflow: hidden;
+}
+.service_wrapper{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+   
+}
+.service{
+   min-height: 16px;
+    width: 19%;
+    float: left;
+    padding: 26px 32px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    color: #979797;
+}
+.service h5{
+    color: #2DA7CA;
+}
+.main_service2{
+    background-color: #f0f0f0;
+    overflow: hidden;
+    padding: 11px;
+}
+.service_wrapper2{
+    overflow: hidden;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    width: 75%;
+}
+.service2{
+    width: 35%;
+    min-height: 250px;
+    float: left;
+}
+.para{
+  color: #ABABAB;
+}
+.service2 h2{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ABABAB;
+}
+.service2 button{
+    color: white;
+    background-color: #2DA7CA;
+    border: none;
+    padding: 2px 3px;
+}
+.service_cetagory{
+    float: right;
+    overflow: hidden;
+    width: 60%;
+}
+.service_cetagory img{
+    width: 100%;
+}
+.cetagory{
+     width: 30%;
+    background-color: #34495E;
+    float: left;
+    margin-left: 10px;
+}
+.content{
+ background-color: #297FB8;
+   padding: 28px
+}
+.content_section{
+    text-align: center;
+    color:#7AA6CD;
+    font-size: 20px;
+    /*background-color: #297FB8;*/
+    width: 100%;
+}
+footer{
+    background-color:#323A45;
+    padding: 20px;
+}
+
+ footer p{text-align: center;
+    color:white;
+    font-size: 20px;
+}
+     
+
+
+    
